@@ -4,7 +4,8 @@ This is a simple wrapper around CoreSVG's `CGSVGDocumentCreateFromData` and `CGC
 
 It maintains the vectors as opposed to rasterizing the image.
 
-NOTE: This uses private APIs (at least as of macOS 26) so please don't attempt to distribute this without giving users appropriate caveats.
+> [!CAUTION]
+> This uses private APIs (at least as of macOS 26) so please don't attempt to distribute this without giving users appropriate caveats.
 
 Usage:
 ```
