@@ -5,7 +5,9 @@ This is a simple wrapper around CoreSVG's CGSVGDocumentCreateFromData and CGCont
 It maintains the vectors as opposed to rasterizing the image.
 
 Usage:
+```
   svg2pdf <input> <output>
+```
 
 ## Building
 
